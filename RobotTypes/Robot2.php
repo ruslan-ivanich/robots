@@ -2,6 +2,10 @@
 
 class Robot2 extends BaseRobotType implements RobotTypeInterface
 {
+    /**
+     * @param int $count
+     * @return array
+     */
     public function create(int $count): array
     {
         $robots = [];

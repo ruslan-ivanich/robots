@@ -15,9 +15,6 @@ class BaseRobotType
      */
     public $speed;
 
-    /**
-     *
-     */
     public function __construct()
     {
         $this->weight = rand(1, 10);

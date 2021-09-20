@@ -13,8 +13,8 @@ $factory
     ->addType(new Robot2())
 ;
 
-//var_dump($factory->createRobot1(5));
-//var_dump($factory->createRobot2(2));
+var_dump($factory->createRobot1(5));
+var_dump($factory->createRobot2(2));
 
 $mergeRobot = new MergeRobot();
 $mergeRobot ->addRobot(new Robot2());
